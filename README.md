@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-...ruby
+```ruby
 Strings
 Returns true if string is one of 1.0, t, true, on, y, yes or 1 values. Returns false otherwise.
 Ignores trailing spaces and letter cases.
@@ -92,7 +92,7 @@ true.to_b # => true
 FalseClass
 Returns false.
 false.to_b # => false
-...
+```
 
 ## Development
 

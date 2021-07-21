@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["TODO: Write your email address"]
 
   spec.summary       = "This gem can be used for boolean operation for integers,floats,symbols and strings."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+
+  spec.homepage      = "https://github.com/sairam6267/boolbiz"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
