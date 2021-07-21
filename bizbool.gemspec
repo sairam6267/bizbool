@@ -5,8 +5,8 @@ require_relative "lib/bizbool/version"
 Gem::Specification.new do |spec|
   spec.name          = "bizbool"
   spec.version       = Bizbool::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["sairamBasa"]
+  spec.email         = ["sairam160305@gmail.com"]
 
   spec.summary       = "This gem can be used for boolean operation for integers,floats,symbols and strings."
 
