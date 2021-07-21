@@ -21,6 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'bizbool'
 Strings
 Returns true if string is one of 1.0, t, true, on, y, yes or 1 values. Returns false otherwise.
 Ignores trailing spaces and letter cases.
