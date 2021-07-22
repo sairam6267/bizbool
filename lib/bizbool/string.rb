@@ -8,12 +8,14 @@ module Bizbool::String
     return false if FARRAY.include?(chars)
   end
 
-  def is_numeric?
-    self.to_i.to_s == self
+  def is_numeric
+    return false if self.to_i.to_s != self
+    return true if self.to_i.to_s == self
   end
-
-  def is_float?
-    self.to_f.to_s == self
+  
+  def is_float
+    return false if self.to_f.to_s != self
+    return true if self.to_f.to_s == self
   end
 
 
